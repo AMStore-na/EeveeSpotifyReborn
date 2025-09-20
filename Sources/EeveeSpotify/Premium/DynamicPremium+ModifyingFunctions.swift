@@ -34,9 +34,9 @@ func modifyAttributes(_ attributes: inout [String: AccountAttribute]) {
         $0.stringValue = "pr:premium,tc:0"
     }
 
-  /*  attributes["high-bitrate"] = AccountAttribute.with {
+    attributes["very-high-bitrate"] = AccountAttribute.with {
         $0.boolValue = true
-    }*/
+    }
 
     attributes["is-eligible-premium-unboxing"] = AccountAttribute.with {
         $0.boolValue = true
